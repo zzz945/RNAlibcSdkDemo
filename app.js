@@ -7,7 +7,7 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  Text,
+  Button,
   View,
 } from 'react-native';
 
@@ -15,14 +15,43 @@ import AlibcSdk from 'react-native-alibc-sdk';
 export default class RNAlibcSdkDemo extends Component {
   constructor(props) {
     super(props);
-    AlibcSdk.login(() => console.log("login"));
+    AlibcSdk.init((err) => {
+        if (!err)
+          console.log("init success")
+        else
+          console.log(err)
+      }
+    );
+  }
+  _login() {
+    AlibcSdk.login((err, userInfo) => {
+        if (!err)
+          console.log(userInfo)
+        else
+          console.log(err)
+      }
+    );
+  }
+  _logout() {
+    AlibcSdk.logout((err) => {
+        if (!err)
+          console.log("logout success")
+        else
+          console.log(err)
+      }
+    );
   }
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to react-native-alibc-sdk!
-        </Text>
+        <Button 
+            onPress={this._login}
+            title="LOGIN"
+        />
+        <Button 
+            onPress={this._logout}
+            title="LOGOUT"
+        />
       </View>
     );
   }
@@ -34,10 +63,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
   },
 });

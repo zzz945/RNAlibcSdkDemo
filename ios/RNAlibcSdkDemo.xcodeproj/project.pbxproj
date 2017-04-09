@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -34,8 +35,36 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNAlibcSdkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNAlibcSdkDemoTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		663A53EF1E9935A3002B406B /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 663A53EE1E9935A3002B406B /* yw_1222.jpg */; };
+		66E8BD891E991C45005B1C15 /* AlibabaAuthSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66E8BD851E991C45005B1C15 /* AlibabaAuthSDK.bundle */; };
+		66E8BD8A1E991C45005B1C15 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66E8BD861E991C45005B1C15 /* AlipaySDK.bundle */; };
+		66E8BD8B1E991C45005B1C15 /* ALPLinkPartnerSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66E8BD871E991C45005B1C15 /* ALPLinkPartnerSDK.bundle */; };
+		66E8BD8C1E991C45005B1C15 /* NBResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66E8BD881E991C45005B1C15 /* NBResource.bundle */; };
+		66E8BDAA1E992CAD005B1C15 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BDA91E992CAD005B1C15 /* libc++.tbd */; };
+		66FCC1861E992E0A00E138DF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCC1851E992E0A00E138DF /* libz.tbd */; };
+		66FCC1A61E99300900E138DF /* AlibabaAuthExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD8F1E991C50005B1C15 /* AlibabaAuthExt.framework */; };
+		66FCC1A71E99300900E138DF /* AlibabaAuthSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD541E99185F005B1C15 /* AlibabaAuthSDK.framework */; };
+		66FCC1A81E99300900E138DF /* AlibcLinkPartnerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD901E991C50005B1C15 /* AlibcLinkPartnerSDK.framework */; };
+		66FCC1A91E99300900E138DF /* AlibcTradeBiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD911E991C50005B1C15 /* AlibcTradeBiz.framework */; };
+		66FCC1AA1E99300900E138DF /* AlibcTradeCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD921E991C50005B1C15 /* AlibcTradeCommon.framework */; };
+		66FCC1AB1E99300900E138DF /* AlibcTradeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD561E99186F005B1C15 /* AlibcTradeSDK.framework */; };
+		66FCC1AC1E99300900E138DF /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD931E991C50005B1C15 /* AlipaySDK.framework */; };
+		66FCC1AD1E99300900E138DF /* OpenMtopExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD941E991C50005B1C15 /* OpenMtopExt.framework */; };
+		66FCC1AE1E99300900E138DF /* OpenMtopSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD951E991C50005B1C15 /* OpenMtopSDK.framework */; };
+		66FCC1AF1E99300900E138DF /* SecurityGuardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD961E991C50005B1C15 /* SecurityGuardSDK.framework */; };
+		66FCC1B01E99300900E138DF /* SGMain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD971E991C50005B1C15 /* SGMain.framework */; };
+		66FCC1B11E99300900E138DF /* SGNoCaptcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD981E991C50005B1C15 /* SGNoCaptcha.framework */; };
+		66FCC1B21E99300900E138DF /* SGSecurityBody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD991E991C50005B1C15 /* SGSecurityBody.framework */; };
+		66FCC1B31E99300900E138DF /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD9A1E991C50005B1C15 /* UTDID.framework */; };
+		66FCC1B41E99300900E138DF /* UTMini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E8BD9B1E991C50005B1C15 /* UTMini.framework */; };
+		66FCC1B61E99305F00E138DF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCC1B51E99305F00E138DF /* SystemConfiguration.framework */; };
+		66FCC1B81E99307100E138DF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCC1B71E99307100E138DF /* CoreTelephony.framework */; };
+		66FCC1BA1E99307F00E138DF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCC1B91E99307F00E138DF /* CFNetwork.framework */; };
+		66FCC1BC1E99308F00E138DF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCC1BB1E99308F00E138DF /* Security.framework */; };
+		66FCC1BE1E99309D00E138DF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCC1BD1E99309D00E138DF /* CoreMotion.framework */; };
+		66FCC1C01E9930D100E138DF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCC1BF1E9930D100E138DF /* libsqlite3.tbd */; };
 		7C07FCAB107C41FEA733B04B /* libRNAlibcSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8029A28A1DF4A1DB9F1CD6A /* libRNAlibcSdk.a */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,6 +243,13 @@
 			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
 			remoteInfo = "RCTAnimation-tvOS";
 		};
+		66E8BD511E991259005B1C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E7F442AD35048F19CD312A0 /* RNAlibcSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNAlibcSdk;
+		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
@@ -253,10 +289,39 @@
 		2D02E47B1E0B4A5D006451C7 /* RNAlibcSdkDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNAlibcSdkDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNAlibcSdkDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNAlibcSdkDemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		663A53EE1E9935A3002B406B /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		66E8BD541E99185F005B1C15 /* AlibabaAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthSDK.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/AlibabaAuthSDK.framework"; sourceTree = "<group>"; };
+		66E8BD561E99186F005B1C15 /* AlibcTradeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibcTradeSDK.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/AlibcTradeSDK.framework"; sourceTree = "<group>"; };
+		66E8BD581E9918A8005B1C15 /* AlibabaAuthSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AlibabaAuthSDK.bundle; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Resources/AlibabaAuthSDK.bundle"; sourceTree = "<group>"; };
+		66E8BD851E991C45005B1C15 /* AlibabaAuthSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AlibabaAuthSDK.bundle; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Resources/AlibabaAuthSDK.bundle"; sourceTree = "<group>"; };
+		66E8BD861E991C45005B1C15 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Resources/AlipaySDK.bundle"; sourceTree = "<group>"; };
+		66E8BD871E991C45005B1C15 /* ALPLinkPartnerSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ALPLinkPartnerSDK.bundle; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Resources/ALPLinkPartnerSDK.bundle"; sourceTree = "<group>"; };
+		66E8BD881E991C45005B1C15 /* NBResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NBResource.bundle; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Resources/NBResource.bundle"; sourceTree = "<group>"; };
+		66E8BD8F1E991C50005B1C15 /* AlibabaAuthExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthExt.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/AlibabaAuthExt.framework"; sourceTree = "<group>"; };
+		66E8BD901E991C50005B1C15 /* AlibcLinkPartnerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibcLinkPartnerSDK.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/AlibcLinkPartnerSDK.framework"; sourceTree = "<group>"; };
+		66E8BD911E991C50005B1C15 /* AlibcTradeBiz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibcTradeBiz.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/AlibcTradeBiz.framework"; sourceTree = "<group>"; };
+		66E8BD921E991C50005B1C15 /* AlibcTradeCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibcTradeCommon.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/AlibcTradeCommon.framework"; sourceTree = "<group>"; };
+		66E8BD931E991C50005B1C15 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/AlipaySDK.framework"; sourceTree = "<group>"; };
+		66E8BD941E991C50005B1C15 /* OpenMtopExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopExt.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/OpenMtopExt.framework"; sourceTree = "<group>"; };
+		66E8BD951E991C50005B1C15 /* OpenMtopSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenMtopSDK.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/OpenMtopSDK.framework"; sourceTree = "<group>"; };
+		66E8BD961E991C50005B1C15 /* SecurityGuardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityGuardSDK.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/SecurityGuardSDK.framework"; sourceTree = "<group>"; };
+		66E8BD971E991C50005B1C15 /* SGMain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGMain.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/SGMain.framework"; sourceTree = "<group>"; };
+		66E8BD981E991C50005B1C15 /* SGNoCaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGNoCaptcha.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/SGNoCaptcha.framework"; sourceTree = "<group>"; };
+		66E8BD991E991C50005B1C15 /* SGSecurityBody.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SGSecurityBody.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/SGSecurityBody.framework"; sourceTree = "<group>"; };
+		66E8BD9A1E991C50005B1C15 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/UTDID.framework"; sourceTree = "<group>"; };
+		66E8BD9B1E991C50005B1C15 /* UTMini.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTMini.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/UTMini.framework"; sourceTree = "<group>"; };
+		66E8BDA91E992CAD005B1C15 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		66FCC1851E992E0A00E138DF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		66FCC1B51E99305F00E138DF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		66FCC1B71E99307100E138DF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		66FCC1B91E99307F00E138DF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		66FCC1BB1E99308F00E138DF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		66FCC1BD1E99309D00E138DF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		66FCC1BF1E9930D100E138DF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6E7F442AD35048F19CD312A0 /* RNAlibcSdk.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAlibcSdk.xcodeproj; path = "../node_modules/react-native-alibc-sdk/ios/RNAlibcSdk.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		6E7F442AD35048F19CD312A0 /* RNAlibcSdk.xcodeproj */ = {isa = PBXFileReference; name = "RNAlibcSdk.xcodeproj"; path = "../node_modules/react-native-alibc-sdk/ios/RNAlibcSdk.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		E8029A28A1DF4A1DB9F1CD6A /* libRNAlibcSdk.a */ = {isa = PBXFileReference; name = "libRNAlibcSdk.a"; path = "libRNAlibcSdk.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		E8029A28A1DF4A1DB9F1CD6A /* libRNAlibcSdk.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAlibcSdk.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +337,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FCC1C01E9930D100E138DF /* libsqlite3.tbd in Frameworks */,
+				66FCC1BE1E99309D00E138DF /* CoreMotion.framework in Frameworks */,
+				66FCC1BC1E99308F00E138DF /* Security.framework in Frameworks */,
+				66FCC1BA1E99307F00E138DF /* CFNetwork.framework in Frameworks */,
+				66FCC1B81E99307100E138DF /* CoreTelephony.framework in Frameworks */,
+				66FCC1B61E99305F00E138DF /* SystemConfiguration.framework in Frameworks */,
+				66FCC1A61E99300900E138DF /* AlibabaAuthExt.framework in Frameworks */,
+				66FCC1A71E99300900E138DF /* AlibabaAuthSDK.framework in Frameworks */,
+				66FCC1A81E99300900E138DF /* AlibcLinkPartnerSDK.framework in Frameworks */,
+				66FCC1A91E99300900E138DF /* AlibcTradeBiz.framework in Frameworks */,
+				66FCC1AA1E99300900E138DF /* AlibcTradeCommon.framework in Frameworks */,
+				66FCC1AB1E99300900E138DF /* AlibcTradeSDK.framework in Frameworks */,
+				66FCC1AC1E99300900E138DF /* AlipaySDK.framework in Frameworks */,
+				66FCC1AD1E99300900E138DF /* OpenMtopExt.framework in Frameworks */,
+				66FCC1AE1E99300900E138DF /* OpenMtopSDK.framework in Frameworks */,
+				66FCC1AF1E99300900E138DF /* SecurityGuardSDK.framework in Frameworks */,
+				66FCC1B01E99300900E138DF /* SGMain.framework in Frameworks */,
+				66FCC1B11E99300900E138DF /* SGNoCaptcha.framework in Frameworks */,
+				66FCC1B21E99300900E138DF /* SGSecurityBody.framework in Frameworks */,
+				66FCC1B31E99300900E138DF /* UTDID.framework in Frameworks */,
+				66FCC1B41E99300900E138DF /* UTMini.framework in Frameworks */,
+				66FCC1861E992E0A00E138DF /* libz.tbd in Frameworks */,
+				66E8BDAA1E992CAD005B1C15 /* libc++.tbd in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -427,6 +515,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		66E8BD351E991257005B1C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66E8BD521E991259005B1C15 /* libRNAlibcSdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66E8BD531E99185E005B1C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66FCC1BF1E9930D100E138DF /* libsqlite3.tbd */,
+				66FCC1BD1E99309D00E138DF /* CoreMotion.framework */,
+				66FCC1BB1E99308F00E138DF /* Security.framework */,
+				66FCC1B91E99307F00E138DF /* CFNetwork.framework */,
+				66FCC1B71E99307100E138DF /* CoreTelephony.framework */,
+				66FCC1B51E99305F00E138DF /* SystemConfiguration.framework */,
+				66FCC1851E992E0A00E138DF /* libz.tbd */,
+				66E8BDA91E992CAD005B1C15 /* libc++.tbd */,
+				66E8BD8F1E991C50005B1C15 /* AlibabaAuthExt.framework */,
+				66E8BD901E991C50005B1C15 /* AlibcLinkPartnerSDK.framework */,
+				66E8BD911E991C50005B1C15 /* AlibcTradeBiz.framework */,
+				66E8BD921E991C50005B1C15 /* AlibcTradeCommon.framework */,
+				66E8BD931E991C50005B1C15 /* AlipaySDK.framework */,
+				66E8BD941E991C50005B1C15 /* OpenMtopExt.framework */,
+				66E8BD951E991C50005B1C15 /* OpenMtopSDK.framework */,
+				66E8BD961E991C50005B1C15 /* SecurityGuardSDK.framework */,
+				66E8BD971E991C50005B1C15 /* SGMain.framework */,
+				66E8BD981E991C50005B1C15 /* SGNoCaptcha.framework */,
+				66E8BD991E991C50005B1C15 /* SGSecurityBody.framework */,
+				66E8BD9A1E991C50005B1C15 /* UTDID.framework */,
+				66E8BD9B1E991C50005B1C15 /* UTMini.framework */,
+				66E8BD561E99186F005B1C15 /* AlibcTradeSDK.framework */,
+				66E8BD541E99185F005B1C15 /* AlibabaAuthSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,10 +593,17 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				663A53EE1E9935A3002B406B /* yw_1222.jpg */,
+				66E8BD851E991C45005B1C15 /* AlibabaAuthSDK.bundle */,
+				66E8BD861E991C45005B1C15 /* AlipaySDK.bundle */,
+				66E8BD871E991C45005B1C15 /* ALPLinkPartnerSDK.bundle */,
+				66E8BD881E991C45005B1C15 /* NBResource.bundle */,
+				66E8BD581E9918A8005B1C15 /* AlibabaAuthSDK.bundle */,
 				13B07FAE1A68108700A75B9A /* RNAlibcSdkDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNAlibcSdkDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				66E8BD531E99185E005B1C15 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -641,6 +774,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 66E8BD351E991257005B1C15 /* Products */;
+					ProjectRef = 6E7F442AD35048F19CD312A0 /* RNAlibcSdk.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -815,6 +952,13 @@
 			remoteRef = 5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		66E8BD521E991259005B1C15 /* libRNAlibcSdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNAlibcSdk.a;
+			remoteRef = 66E8BD511E991259005B1C15 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -843,8 +987,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663A53EF1E9935A3002B406B /* yw_1222.jpg in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				66E8BD891E991C45005B1C15 /* AlibabaAuthSDK.bundle in Resources */,
+				66E8BD8A1E991C45005B1C15 /* AlipaySDK.bundle in Resources */,
+				66E8BD8B1E991C45005B1C15 /* ALPLinkPartnerSDK.bundle in Resources */,
+				66E8BD8C1E991C45005B1C15 /* NBResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,23 +1116,23 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
+				);
 				INFOPLIST_FILE = RNAlibcSdkDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAlibcSdkDemo.app/RNAlibcSdkDemo";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
-				);
 			};
 			name = Debug;
 		};
@@ -992,23 +1141,23 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
+				);
 				INFOPLIST_FILE = RNAlibcSdkDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAlibcSdkDemo.app/RNAlibcSdkDemo";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
-				);
 			};
 			name = Release;
 		};
@@ -1018,19 +1167,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
+				);
 				INFOPLIST_FILE = RNAlibcSdkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-lstdc++",
 				);
 				PRODUCT_NAME = RNAlibcSdkDemo;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
-				);
 			};
 			name = Debug;
 		};
@@ -1039,19 +1190,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
+				);
 				INFOPLIST_FILE = RNAlibcSdkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-lstdc++",
 				);
 				PRODUCT_NAME = RNAlibcSdkDemo;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
-				);
 			};
 			name = Release;
 		};
@@ -1067,8 +1220,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
+				);
 				INFOPLIST_FILE = "RNAlibcSdkDemo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1078,14 +1239,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
-				);
 			};
 			name = Debug;
 		};
@@ -1101,8 +1254,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
+				);
 				INFOPLIST_FILE = "RNAlibcSdkDemo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1112,14 +1273,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
-				);
 			};
 			name = Release;
 		};
@@ -1136,15 +1289,15 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "RNAlibcSdkDemo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNAlibcSdkDemo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAlibcSdkDemo-tvOS.app/RNAlibcSdkDemo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 			};
 			name = Debug;
 		};
@@ -1161,15 +1314,15 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "RNAlibcSdkDemo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.RNAlibcSdkDemo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNAlibcSdkDemo-tvOS.app/RNAlibcSdkDemo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 			};
 			name = Release;
 		};
