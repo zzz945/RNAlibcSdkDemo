@@ -37,8 +37,18 @@ export default class RNAlibcSdkDemo extends Component {
     );
   }
   _islogin() {
-    AlibcSdk.isLogin((isLogin) => {
-        console.log(isLogin)
+    AlibcSdk.isLogin((err, isLogin) => {
+        if (!err)
+          console.log(isLogin)
+      }
+    );
+  }
+  _getUser() {
+    AlibcSdk.getUser((err, userInfo) => {
+        if (err)
+          console.log(err);
+        else
+          console.log(userInfo)
       }
     );
   }
@@ -70,6 +80,10 @@ export default class RNAlibcSdkDemo extends Component {
         <Button 
             onPress={this._islogin}
             title="ISLOGIN"
+        />
+        <Button 
+            onPress={this._getUser}
+            title="GETUSER"
         />
         <Button 
             onPress={this._logout}
