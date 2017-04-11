@@ -11,11 +11,14 @@ import {
   View,
 } from 'react-native';
 
+// 引入sdk
 import AlibcSdk from 'react-native-alibc-sdk';
+
 export default class RNAlibcSdkDemo extends Component {
   constructor(props) {
     super(props);
-    AlibcSdk.init((err) => {
+    // 初始化sdk(此方法为异步， 确保回调执行后再进行下一步操作)
+    AlibcSdk.init("mm_43693166_0_0", (err) => {
         if (!err)
           console.log("init success")
         else
@@ -24,6 +27,7 @@ export default class RNAlibcSdkDemo extends Component {
     );
   }
   _login() {
+    // 唤起手淘app进行授权登录， 获取用户个人信息。 
     AlibcSdk.login((err, userInfo) => {
         if (!err)
           console.log(userInfo)
@@ -32,10 +36,25 @@ export default class RNAlibcSdkDemo extends Component {
       }
     );
   }
+  _islogin() {
+    AlibcSdk.isLogin((isLogin) => {
+        console.log(isLogin)
+      }
+    );
+  }
   _logout() {
     AlibcSdk.logout((err) => {
         if (!err)
           console.log("logout success")
+        else
+          console.log(err)
+      }
+    );
+  }
+  _show() {
+    AlibcSdk.show("539152008480", (err, info) => {
+        if (!err)
+          console.log(info)
         else
           console.log(err)
       }
@@ -49,8 +68,16 @@ export default class RNAlibcSdkDemo extends Component {
             title="LOGIN"
         />
         <Button 
+            onPress={this._islogin}
+            title="ISLOGIN"
+        />
+        <Button 
             onPress={this._logout}
             title="LOGOUT"
+        />
+        <Button 
+            onPress={this._show}
+            title="SHOW"
         />
       </View>
     );
