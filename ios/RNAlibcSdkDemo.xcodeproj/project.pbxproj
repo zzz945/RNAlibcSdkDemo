@@ -35,7 +35,7 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNAlibcSdkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNAlibcSdkDemoTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		663A53EF1E9935A3002B406B /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 663A53EE1E9935A3002B406B /* yw_1222.jpg */; };
+		660E4D181E9FB60800EEBCA3 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 660E4D171E9FB60800EEBCA3 /* yw_1222.jpg */; };
 		66E8BD891E991C45005B1C15 /* AlibabaAuthSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66E8BD851E991C45005B1C15 /* AlibabaAuthSDK.bundle */; };
 		66E8BD8A1E991C45005B1C15 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66E8BD861E991C45005B1C15 /* AlipaySDK.bundle */; };
 		66E8BD8B1E991C45005B1C15 /* ALPLinkPartnerSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 66E8BD871E991C45005B1C15 /* ALPLinkPartnerSDK.bundle */; };
@@ -289,7 +289,7 @@
 		2D02E47B1E0B4A5D006451C7 /* RNAlibcSdkDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNAlibcSdkDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNAlibcSdkDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNAlibcSdkDemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		663A53EE1E9935A3002B406B /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		660E4D171E9FB60800EEBCA3 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
 		66E8BD541E99185F005B1C15 /* AlibabaAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibabaAuthSDK.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/AlibabaAuthSDK.framework"; sourceTree = "<group>"; };
 		66E8BD561E99186F005B1C15 /* AlibcTradeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlibcTradeSDK.framework; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks/AlibcTradeSDK.framework"; sourceTree = "<group>"; };
 		66E8BD581E9918A8005B1C15 /* AlibabaAuthSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AlibabaAuthSDK.bundle; path = "../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Resources/AlibabaAuthSDK.bundle"; sourceTree = "<group>"; };
@@ -593,7 +593,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				663A53EE1E9935A3002B406B /* yw_1222.jpg */,
+				660E4D171E9FB60800EEBCA3 /* yw_1222.jpg */,
 				66E8BD851E991C45005B1C15 /* AlibabaAuthSDK.bundle */,
 				66E8BD861E991C45005B1C15 /* AlipaySDK.bundle */,
 				66E8BD871E991C45005B1C15 /* ALPLinkPartnerSDK.bundle */,
@@ -706,7 +706,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AG976829M3;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = AG976829M3;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -987,7 +991,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663A53EF1E9935A3002B406B /* yw_1222.jpg in Resources */,
+				660E4D181E9FB60800EEBCA3 /* yw_1222.jpg in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				66E8BD891E991C45005B1C15 /* AlibabaAuthSDK.bundle in Resources */,
@@ -1112,6 +1116,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AG976829M3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1141,6 +1146,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = AG976829M3;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios",
@@ -1165,8 +1171,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = AG976829M3;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1180,6 +1190,7 @@
 					"-lc++",
 					"-lstdc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.daiyan.RNAlibcSdkDemo;
 				PRODUCT_NAME = RNAlibcSdkDemo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1190,6 +1201,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AG976829M3;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-alibc-sdk/ios/AlibcTradeSDK/Frameworks";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1203,6 +1216,7 @@
 					"-lc++",
 					"-lstdc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.daiyan.RNAlibcSdkDemo;
 				PRODUCT_NAME = RNAlibcSdkDemo;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
