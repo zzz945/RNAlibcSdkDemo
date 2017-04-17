@@ -15,6 +15,20 @@ import {
 // 引入sdk
 import RNAlibcSdk, {AlibcTradeWebView} from 'react-native-alibc-sdk';
 
+const PARAMS = {
+  pid: "mm_43693166_0_0",
+  forceH5: true,
+  detail: {type: "detail", payload: "539152008480"},
+  url: {
+        type: "url",
+        payload: "http://uland.taobao.com/coupon/edetail?activityId=13e9f56152bf43329f1940b7354c7bcf&pid=mm_33719122_5420449_75840102&itemId=543666118631&src=quanbaibai"
+  },
+  shop: {type: "shop", payload: "116614296"},
+  orders: {type: "orders",  payload: {orderType: 0, isAllOrder: true}},
+  addCard: {type: "addCard", payload: "539152008480"},
+  mycard: {type: "mycard"},
+};
+
 export default class RNAlibcSdkDemo extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +39,7 @@ export default class RNAlibcSdkDemo extends Component {
     * forceH5：强制浏览器打开页面
     * callback: 回调函数
     */
-    RNAlibcSdk.init("mm_43693166_0_0", true, (err) => {
+    RNAlibcSdk.init(PARAMS.pid, PARAMS.forceH5, (err) => {
         if (!err)
           console.log("init success")
         else
@@ -37,7 +51,6 @@ export default class RNAlibcSdkDemo extends Component {
     this._login = this._login.bind(this);
     this._islogin = this._islogin.bind(this);
     this._getUser = this._getUser.bind(this);
-    this._show = this._show.bind(this);
     this._onTradeResult = this._onTradeResult.bind(this);
   }
   _login() {
@@ -75,7 +88,7 @@ export default class RNAlibcSdkDemo extends Component {
       }
     );
   }
-  _show() {
+  _show(param) {
     /*
     Q：交易成功后没有回调
         1.详情页加入购物车没有回调
@@ -83,7 +96,7 @@ export default class RNAlibcSdkDemo extends Component {
         3.支付的话，如果有接入支付宝sdk，都会有回调的
       ****目前只有通过H5打开页面完成支付，并且集成了alipay的时候才会有支付成功的回调***  （12/7更新）
     */
-    RNAlibcSdk.show("539152008480", (err, info) => {
+    RNAlibcSdk.show(param, (err, info) => {
         if (!err)
           console.log(info)
         else
@@ -105,30 +118,54 @@ export default class RNAlibcSdkDemo extends Component {
               onPress={this._login}
               title="LOGIN"
           />
-          <Button 
+          <Button
               onPress={this._islogin}
               title="ISLOGIN"
           />
-          <Button 
+          <Button
               onPress={this._getUser}
               title="GETUSER"
           />
-          <Button 
+          <Button
               onPress={this._logout}
               title="LOGOUT"
           />
-          <Button 
-              onPress={this._show}
-              title="SHOW"
-          />        
+        </View>
+        <View style={styles.buttonGroup}>
+          <Button
+              onPress={this._show.bind(this, PARAMS.detail)}
+              title="detail"
+          />
+          <Button
+              onPress={this._show.bind(this, PARAMS.url)}
+              title="url"
+          />    
+          <Button
+              onPress={this._show.bind(this, PARAMS.shop)}
+              title="shop"
+          />   
+          <Button
+              onPress={this._show.bind(this, PARAMS.orders)}
+              title="oriders"
+          />
+          <Button
+              onPress={this._show.bind(this, PARAMS.addCard)}
+              title="addCard"
+          /> 
+          <Button
+              onPress={this._show.bind(this, PARAMS.mycard)}
+              title="myCarts"
+          />   
         </View>
         <AlibcTradeWebView style={styles.webView} 
-                          itemId="539152008480"
+                          param={PARAMS.orders}
                           onChange={this._onTradeResult}/>
       </View>
     );
   }
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
