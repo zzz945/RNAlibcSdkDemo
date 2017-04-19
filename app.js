@@ -51,7 +51,9 @@ export default class RNAlibcSdkDemo extends Component {
     this._login = this._login.bind(this);
     this._islogin = this._islogin.bind(this);
     this._getUser = this._getUser.bind(this);
+    this._goBack = this._goBack.bind(this);
     this._onTradeResult = this._onTradeResult.bind(this);
+    this._onWebViewStateChange = this._onWebViewStateChange.bind(this);
   }
   _login() {
     // 唤起手淘app进行授权登录， 获取用户个人信息。 
@@ -87,6 +89,13 @@ export default class RNAlibcSdkDemo extends Component {
           console.log(err)
       }
     );
+  }
+  _goBack() {
+    const { MyWebView } = this.refs;
+    MyWebView.goBack();
+  }
+  _onWebViewStateChange(state) {
+    console.log(state);
   }
   _show(param) {
     /*
@@ -146,7 +155,7 @@ export default class RNAlibcSdkDemo extends Component {
           />   
           <Button
               onPress={this._show.bind(this, PARAMS.orders)}
-              title="oriders"
+              title="orders"
           />
           <Button
               onPress={this._show.bind(this, PARAMS.addCard)}
@@ -155,11 +164,19 @@ export default class RNAlibcSdkDemo extends Component {
           <Button
               onPress={this._show.bind(this, PARAMS.mycard)}
               title="myCarts"
-          />   
+          />    
         </View>
         <AlibcTradeWebView style={styles.webView} 
-                          param={PARAMS.orders}
-                          onChange={this._onTradeResult}/>
+                          ref="MyWebView"
+                          param={PARAMS.mycard}
+                          onTradeResult={this._onTradeResult}
+                          onStateChange={this._onWebViewStateChange}/>
+        <View style={styles.buttonGroup}>
+          <Button
+              onPress={this._goBack}
+              title="go back"
+          />
+        </View>
       </View>
     );
   }
